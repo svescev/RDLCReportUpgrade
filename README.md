@@ -15,8 +15,13 @@ Input/Output:
 - output file is txt file that can be imported to Dynamics NAV with RDLC reporting (single report)
 
 Instructions: 
+
 1. Import file - import the input file
+
 2. Decustruct - deconstruct the input file into parts - you can see the values of parts, and their hierarhy below in the bottom part of the form
+
 3. Transform - perform transformations, creates dataset, request page,RDLC layout
+
 4. View sections - opens a new form, where one can see and set what sections will be on header, footer or body. RDLC Layout is recreated once the form is closed.
+
 5. Export File - creates the output file
